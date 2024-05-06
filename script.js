@@ -7,7 +7,7 @@ function checkOre() {
 
     if (input) {
         formattedInput = input.trim().toUpperCase();
-        let defaultYesMessage = input + " is highlighted.";
+        let defaultYesMessage = input + " is indeed highlighted.";
 
         switch (formattedInput) {
             case "MK2 SONAR":
