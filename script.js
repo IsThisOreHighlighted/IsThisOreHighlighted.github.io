@@ -79,6 +79,7 @@ function checkOre() {
             case "STAR WRATH":
             case "STARWRATH":
             case "VERDIBLORA":
+            case "BLACK PEARL":
                 title.innerHTML = defaultYesMessage;
                 break;
             case "KILLBOT CRYSTAL":
