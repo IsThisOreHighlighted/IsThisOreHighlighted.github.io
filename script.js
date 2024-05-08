@@ -80,19 +80,23 @@ function checkOre() {
             case "STARWRATH":
             case "VERDIBLORA":
             case "BLACK PEARL":
+            case "VOID REAVER":
                 title.innerHTML = defaultYesMessage;
                 break;
             case "KILLBOT CRYSTAL":
                 title.innerHTML = "Killbot crystal does not exist and will never be added. Rocc is only for legacy ores.";
                 break;
             case "A FLARE V2":
-                title.innerHTML = "Dark... what are you doing..."
+                title.innerHTML = "Dark... what are you doing...";
                 break;
             case "RADIATIVE QUASAR":
-                title.innerHTML = "Uh, yeah, sadly."
+                title.innerHTML = "Uh, yeah, sadly.";
                 break;
             case "CAELARIUS REVAMP":
-                title.innerHTML = "If anything, that ore was UN-highlighted..."
+                title.innerHTML = "If anything, that ore was UN-highlighted...";
+                break;
+            case "BOID TEAVER":
+                title.innerHTML = "Yorp... got that one...";
                 break;
             default:
                 title.innerHTML = "This ore is not currently highlighted.";
