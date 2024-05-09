@@ -81,6 +81,11 @@ function checkOre() {
             case "VERDIBLORA":
             case "BLACK PEARL":
             case "VOID REAVER":
+            case "THE FIREWALL":
+            case "FIREWALL":
+            case "THE FIRE WALL":
+            case "FIRE WALL":
+            case "ASTERIUM":
                 title.innerHTML = defaultYesMessage;
                 break;
             case "KILLBOT CRYSTAL":
