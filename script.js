@@ -86,6 +86,10 @@ function checkOre() {
             case "THE FIRE WALL":
             case "FIRE WALL":
             case "ASTERIUM":
+            case "ASTRALAGALAM":
+            case "CORRUPTELA":
+            case "UNNAMED WIND ORE":
+            case "LUMENYL":
                 title.innerHTML = defaultYesMessage;
                 break;
             case "KILLBOT CRYSTAL":
