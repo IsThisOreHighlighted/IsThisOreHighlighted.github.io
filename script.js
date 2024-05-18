@@ -115,7 +115,6 @@ function checkOre() {
                 title.innerHTML = "Yorp... got that one...";
                 break;
             case "SEQUITITE":
-            case "CHAOTICA":
                 title.innerHTML = "Which one? There's like 20.";
                 break;
             default:
