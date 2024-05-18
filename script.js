@@ -90,6 +90,13 @@ function checkOre() {
             case "CORRUPTELA":
             case "UNNAMED WIND ORE":
             case "LUMENYL":
+            case "COGNICITE":
+            case "PURE LIGHT":
+            case "SPECTRIOL":
+            case "SPECTRIOL REVAMP":
+            case "SPECTRIOL REVAMP REVAMP":
+            case "CRIMSON MUTATION":
+            case "ARCHEDRAFT":
                 title.innerHTML = defaultYesMessage;
                 break;
             case "KILLBOT CRYSTAL":
@@ -106,6 +113,10 @@ function checkOre() {
                 break;
             case "BOID TEAVER":
                 title.innerHTML = "Yorp... got that one...";
+                break;
+            case "SEQUITITE":
+            case "CHAOTICA":
+                title.innerHTML = "Which one? There's like 20.";
                 break;
             default:
                 title.innerHTML = "This ore is not currently highlighted.";
