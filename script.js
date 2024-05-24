@@ -97,6 +97,12 @@ function checkOre() {
             case "SPECTRIOL REVAMP REVAMP":
             case "CRIMSON MUTATION":
             case "ARCHEDRAFT":
+            case "ZEYPHR":
+            case "SHIAWASE PULSAR":
+            case "404 GATEWAY":
+            case "RAVENMARE":
+            case "PHASTUANYX":
+            case "MAELSTROM":
                 title.innerHTML = defaultYesMessage;
                 break;
             case "KILLBOT CRYSTAL":
