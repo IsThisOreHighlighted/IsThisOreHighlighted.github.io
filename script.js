@@ -103,6 +103,13 @@ function checkOre() {
             case "RAVENMARE":
             case "PHASTUANYX":
             case "MAELSTROM":
+            case "PLASVERLITE":
+            case "SNAKE EYES":
+            case "SNAKEEYES":
+            case "SNAKE EYES.":
+            case "SNAKEEYES.":
+            case "DARKMATTER STABILIZER":
+            case "GALAXIA":
                 title.innerHTML = defaultYesMessage;
                 break;
             case "KILLBOT CRYSTAL":
