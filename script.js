@@ -110,6 +110,16 @@ function checkOre() {
             case "SNAKEEYES.":
             case "DARKMATTER STABILIZER":
             case "GALAXIA":
+            case "SERENITH":
+            case "FATENNIAL":
+            case "REFLECTRUM":
+            case "PETRICHORIA":
+            case "FLUXORIUM":
+            case "KALEIDOBOLT":
+            case "HIDERAE":
+            case "STARCIPHERITE":
+            case "DREAMSCAPE":
+            case "CERULALOID":
                 title.innerHTML = defaultYesMessage;
                 break;
             case "KILLBOT CRYSTAL":
