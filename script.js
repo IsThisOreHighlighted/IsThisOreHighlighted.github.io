@@ -7,7 +7,7 @@ function checkOre() {
 
     if (input) {
         formattedInput = input.trim().toUpperCase();
-        let defaultYesMessage = input + " is indeed highlighted.";
+        let defaultYesMessage = input + " is indeed highlighted."; // message for almost every ore that is highlighted
 
         switch (formattedInput) {
             case "MK2 SONAR":
