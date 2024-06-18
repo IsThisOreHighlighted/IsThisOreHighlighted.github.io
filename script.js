@@ -16,6 +16,9 @@ function checkOre() {
             case "POLTERGEIST":
             case "EYE OF THE SIREN":
             case "PHOTONIUS FLUXULIUM":
+            case "PHOTONIUS FLUXULITE":
+            case "PHOTON FLUXULITE":
+            case "PHOTON FLUXULIUM":
             case "RUNESTONE":
             case "HELIOSTRA":
             case "YVELDOLORITE":
@@ -120,6 +123,30 @@ function checkOre() {
             case "STARCIPHERITE":
             case "DREAMSCAPE":
             case "CERULALOID":
+            case "STAR-ZERO":
+            case "STAR ZERO":
+            case "STAR–ZERO":
+            case "STAR—ZERO":
+            case "STARZERO":
+            case "CORRUPTAL":
+            case "ENCHANTIUM":
+            case "PULSO RELICTA":
+            case "PULSŌ RELICTA":
+            case "PULSō RELICTA":
+            case "YGGDRASIL":
+            case "KRYSTALICITE":
+            case "SPIRITBOUND TOMB":
+            case "TRICHROMACY":
+            case "COMPUTER ANNIHILATOR 4600 MK.II":
+            case "COMPUTER ANNIHILATOR 4600 MKII":
+            case "COMPUTER ANNIHILATOR 4600":
+            case "COMPUTER ANNIHILATOR MK.II":
+            case "COMPUTER ANNIHILATOR MKII":
+            case "COMPUTER ANNIHILATOR":
+            case "SHARDS OF PANE":
+            case "SHARDS OF PAIN":
+            case "CHANNAL":
+            case "CHANNAL REVAMP":
                 title.innerHTML = defaultYesMessage;
                 break;
             case "KILLBOT CRYSTAL":
